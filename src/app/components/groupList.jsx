@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import PropTypes from "prop-types";
 
 const GroupList = ({
@@ -35,6 +35,7 @@ const GroupList = ({
                     className = {
                         "list-group-item" +
                         (item === selectedItem ? " active" : "")
+                        
                     }
                     onClick = {() => onItemSelect(item)}
                     role = "button"
